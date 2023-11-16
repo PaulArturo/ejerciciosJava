@@ -1,0 +1,3 @@
+Hay 7 de words
+Hay 26 de leters
+Hay 2 de lines
