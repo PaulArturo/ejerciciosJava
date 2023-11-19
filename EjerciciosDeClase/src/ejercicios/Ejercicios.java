@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package ejercicios;
-import Repaso.ej5.ej1;
+import POO_ruleta_rusa.Juego;
 
 /**
  *
@@ -15,7 +15,8 @@ public class Ejercicios {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception{
-        ej1.proceso();
+        Juego juego = new Juego(4);
+        juego.ronda();
     }
     
 }
